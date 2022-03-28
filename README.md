@@ -11,4 +11,4 @@
 ```
 
 ## Help
-Manual user and instalation --> [DOCUMENTATION](BOT DISCORD.pdf)
+Manual user and instalation --> [DOCUMENTATION](https://github.com/IamYipi/DiscordBot/blob/main/BOT%20DISCORD.pdf)
