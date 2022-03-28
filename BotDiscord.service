@@ -1,0 +1,11 @@
+[Unit]
+Description=Envia un mensaje a un canal de un servidor de Discord mediante un bot cuando el sistema se apaga/reinicia
+Before=shutdown.target halt.target poweroff.target reboot.target
+
+[Service]
+ExecStart=/usr/bin/BotDiscord.sh start
+ExecStop=/usr/bin/BotDiscord.sh stop
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
